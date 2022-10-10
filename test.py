@@ -7,7 +7,7 @@ while intro != "Y":
 loopcount = 0
 while loopcount < 9:
     answer = input("what number between 1 and 10 am I guessing right now?   ")
-    x = random.randint(0,10)
+    x = random.randint(1,10)
     #print('-----------------------------------')
     if answer == x:
         print('Well done, the number is corect!')
